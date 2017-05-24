@@ -13,8 +13,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         print("Hello I am Death")
         print("feature-z")
-        
         print("a cow entered the room")
+        
+        func myAmazingFunction() {
+            print("this function is amazing in a can")
+        }
         
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
