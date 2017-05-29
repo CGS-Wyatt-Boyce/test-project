@@ -19,6 +19,9 @@ class ViewController: UIViewController {
             print("this function is amazing in a can")
         }
         
+        print("GIT INIT FEATURE X")
+        myAmazingFunction()
+        
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
