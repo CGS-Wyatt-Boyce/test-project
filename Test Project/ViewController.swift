@@ -14,9 +14,16 @@ class ViewController: UIViewController {
         print("Hello I am Death")
         print("feature-z")
         print("a cow entered the room")
+        var death = false
         
         func myAmazingFunction() {
             print("this function is amazing in a can")
+        }
+        
+        if death == false{
+            death = true
+            print("U DIED")
+            myAmazingFunction()
         }
         
         super.viewDidLoad()
