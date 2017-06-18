@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         print("feature-z")
         print("a cow entered the room")
         var death = false
+        var count = 0
         
         func myAmazingFunction() {
             print("this function is amazing in a can")
@@ -26,7 +27,16 @@ class ViewController: UIViewController {
             myAmazingFunction()
         }
         
+<<<<<<< Updated upstream
         print("Gopnik INVASION!!!!")
+=======
+        let _ = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { (gitTimer) in
+            print("Cyka Blyat!")
+            if count == 10 {
+                gitTimer.invalidate()
+            }
+        }
+>>>>>>> Stashed changes
         
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
