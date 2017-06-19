@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD27C3D51EF7449B00A50AE1 /* SecondVeiwController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD27C3D41EF7449B00A50AE1 /* SecondVeiwController.swift */; };
 		AD7F2E5A1ECBDBF4003291BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7F2E591ECBDBF4003291BF /* AppDelegate.swift */; };
 		AD7F2E5C1ECBDBF4003291BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7F2E5B1ECBDBF4003291BF /* ViewController.swift */; };
 		AD7F2E5F1ECBDBF4003291BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD7F2E5D1ECBDBF4003291BF /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD27C3D41EF7449B00A50AE1 /* SecondVeiwController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondVeiwController.swift; sourceTree = "<group>"; };
 		AD7F2E561ECBDBF4003291BF /* Test Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD7F2E591ECBDBF4003291BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD7F2E5B1ECBDBF4003291BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		AD7F2E581ECBDBF4003291BF /* Test Project */ = {
 			isa = PBXGroup;
 			children = (
+				AD27C3D41EF7449B00A50AE1 /* SecondVeiwController.swift */,
 				AD7F2E591ECBDBF4003291BF /* AppDelegate.swift */,
 				AD7F2E5B1ECBDBF4003291BF /* ViewController.swift */,
 				AD7F2E5D1ECBDBF4003291BF /* Main.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD7F2E5C1ECBDBF4003291BF /* ViewController.swift in Sources */,
+				AD27C3D51EF7449B00A50AE1 /* SecondVeiwController.swift in Sources */,
 				AD7F2E5A1ECBDBF4003291BF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +305,7 @@
 				AD7F2E6A1ECBDBF4003291BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
